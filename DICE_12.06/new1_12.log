@@ -1,0 +1,2314 @@
+--- Job new1_12.06.gms Start 12/29/25 14:23:14 49.4.0 6fb2fe8b WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    F:\GAMS\49\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\Penguin\Desktop\DICE_12.06\new1_12.06.gms
+    PageSize 0
+    ScrDir C:\Users\Penguin\Desktop\DICE_12.06\225a\
+    SysDir F:\GAMS\49\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Liu junqi                                      G250408+0003Ac-GEN
+          f24091101061@cityu.edu.mo                               CLA109103
+          225a\gamslice.dat
+          node:33010801 mem:24 cores:8 ipport:12715 v:2                    
+          Community license for demonstration and instructional purposes only
+System information: 8 physical cores and 24 Gb memory detected
+GAMS 49.4.0   Copyright (C) 1987-2025 GAMS Development. All rights reserved
+--- Starting compilation
+--- new1_12.06.gms(130) 3 Mb
+--- . Nonco2-b-4-3-1.gms(45) 3 Mb
+--- new1_12.06.gms(200) 3 Mb
+--- . FAIR-beta-4-3-1.gms(118) 3 Mb
+--- new1_12.06.gms(284) 3 Mb
+--- . Putlong-4-3-10.gms(3) 3 Mb
+--- .. def-opt-b-4-3-10.gms(17) 3 Mb
+--- . Putlong-4-3-10.gms(4) 3 Mb
+--- .. put-b-4-3-10.gms(5) 3 Mb
+--- . Putlong-4-3-10.gms(5) 3 Mb
+--- .. put-opt-b-4-3-10.gms(6) 3 Mb
+--- . Putlong-4-3-10.gms(6) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(9) 3 Mb
+--- .. def-T2-b-4-3-1.gms(23) 3 Mb
+--- . Putlong-4-3-10.gms(10) 3 Mb
+--- .. put-T2-b-4-3-1.gms(3) 3 Mb
+--- . Putlong-4-3-10.gms(11) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(14) 3 Mb
+--- .. def-T15-b-4-3-1.gms(23) 3 Mb
+--- . Putlong-4-3-10.gms(15) 3 Mb
+--- .. put-T15-b-4-3-1.gms(3) 3 Mb
+--- . Putlong-4-3-10.gms(16) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(19) 3 Mb
+--- .. def-altdam-b-4-3-1.gms(20) 3 Mb
+--- . Putlong-4-3-10.gms(20) 3 Mb
+--- .. put-altdam-b-4-3-1.gms(5) 3 Mb
+--- . Putlong-4-3-10.gms(21) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(24) 3 Mb
+--- .. def-paris-b-4-3-1.gms(24) 3 Mb
+--- . Putlong-4-3-10.gms(25) 3 Mb
+--- .. put-PARIS-b-4-3-1.gms(3) 3 Mb
+--- . Putlong-4-3-10.gms(26) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(29) 3 Mb
+--- .. def-base-b-4-3-1.gms(26) 3 Mb
+--- . Putlong-4-3-10.gms(30) 3 Mb
+--- .. put-base-b-4-3-1.gms(5) 3 Mb
+--- . Putlong-4-3-10.gms(31) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(34) 3 Mb
+--- .. def_DISC5%-b-4-3-1.gms(36) 3 Mb
+--- . Putlong-4-3-10.gms(35) 3 Mb
+--- .. put-DISC5%-b-4-3-1.gms(3) 3 Mb
+--- . Putlong-4-3-10.gms(36) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(39) 3 Mb
+--- .. def_DISC4%-b-4-3-1.gms(29) 3 Mb
+--- . Putlong-4-3-10.gms(40) 3 Mb
+--- .. put-DISC4%-b-4-3-1.gms(3) 3 Mb
+--- . Putlong-4-3-10.gms(41) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(44) 3 Mb
+--- .. def_DISC3%-b-4-3-1.gms(26) 3 Mb
+--- . Putlong-4-3-10.gms(45) 3 Mb
+--- .. put-DISC3%-b-4-3-1.gms(3) 3 Mb
+--- . Putlong-4-3-10.gms(46) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(49) 3 Mb
+--- .. def_DISC2%-b-4-3-1.gms(27) 3 Mb
+--- . Putlong-4-3-10.gms(50) 3 Mb
+--- .. put-DISC2%-b-4-3-1.gms(3) 3 Mb
+--- . Putlong-4-3-10.gms(51) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(54) 3 Mb
+--- .. def_DISC1%-b-4-3-1.gms(23) 3 Mb
+--- . Putlong-4-3-10.gms(55) 3 Mb
+--- .. put-DISC1%-b-4-3-1.gms(4) 3 Mb
+--- . Putlong-4-3-10.gms(56) 3 Mb
+--- .. put_list_module-b-4-3-10.gms(191) 3 Mb
+--- . Putlong-4-3-10.gms(56) 3 Mb
+--- new1_12.06.gms(290) 3 Mb
+--- Starting execution: elapsed 0:00:00.270
+--- new1_12.06.gms(443) 4 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(444) 7 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 2.000E-07, 1.190E+08] - Zero values observed as well
+--- new1_12.06.gms(444) 5 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.276
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          6.1873845087E+06 (Input point)
+ 
+    The pre-triangular part of the model has 9 constraints and 45 variables.
+    The post-triangular part of the model has 607 constraints and variables.
+    There are 566 definitional constraints and defined variables.
+ 
+    Preprocessed model has 940 constraints and 1038 variables
+    with 4527 Jacobian elements, 2077 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      8.2910571155E+06 (Full preprocessed model)
+                      1.1241897517E+03 (After scaling)
+                      2.5737460714E+02 (After adjusting individual variables)
+       1  S0          2.8652219518E+02                 1.0E+00     7 T  T
+       2   0          2.8645850117E+02                 1.2E-01     9 F  F
+       3   0          2.8569423160E+02                 6.2E-02     7 F  F
+       4   0          2.8568400444E+02                 3.1E-02     7 F  F
+       5  S0          2.8568548922E+02                 5.0E-01     7 F  F
+       6   0          2.8567862619E+02                 1.0E+00     7 T  T
+       7   0          2.8564033289E+02                 1.0E+00     7 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       8  S0          2.8553038063E+02                 1.0E+00     7 T  T
+       9   0          2.8518332726E+02                 1.0E+00     7 T  T
+      10  S0          2.8474309469E+02                 1.0E+00     7 T  T
+      11   0          2.8456952619E+02                 1.0E+00     7 T  T
+      12  S0          2.8490939051E+02                 5.0E-01     7 F  F
+      13  S0          2.8485935574E+02                 1.0E+00     7 T  T
+      14   0          2.8477224396E+02                 1.0E+00     7 T  T
+      15   0          2.8455473914E+02                 1.0E+00     7 T  T
+      16   0          2.8400708819E+02                 1.0E+00     9 T  T
+      17   0          2.8335698440E+02                 1.0E+00     9 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      18  S0          2.8211671376E+02                 1.0E+00     9 T  T
+      19   0          2.7948488584E+02                 1.0E+00     9 T  T
+      20   0          2.7275638045E+02                 1.0E+00    12 T  T
+      21   0          2.6442700088E+02                 1.0E+00     9 T  T
+      22   0          2.5587999172E+02                 1.0E+00     3 T  T
+      23   0          2.5369390051E+02                 1.0E+00     4 T  T
+      24   0          2.5366560407E+02                 1.0E+00     1 T  T
+      25   0          2.5366560397E+02                 1.0E+00     1 T  T
+      26   1     231  2.5196138442E+02 6.2E+05      26 3.9E-01    25 F  T
+      27   1     201  2.4524972797E+02 1.1E+05      35 1.0E+00    25 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      28   1     199  2.3812591679E+02 1.4E+06      23 9.4E-01    25 F  F
+      29   1     177  2.3221796121E+02 5.4E+02      28 1.0E+00    25 T  T
+      30   1     161  2.2431678681E+02 1.0E+02      29 1.0E+00    25 T  T
+      31   1     143  2.2206348444E+02 6.1E+01      23 1.0E+00    25 T  T
+      32   1     118  2.1170655079E+02 2.0E+02      41 1.0E+00    35 T  T
+      33   1     118  1.9007984957E+02 5.4E+03      36 9.8E-01    35 F  T
+      34   1      93  1.8591849578E+02 3.1E+00      46 1.0E+00    25 T  T
+      35   1      93  1.8308201097E+02 2.4E+00      52 9.5E-01    25 F  F
+      36   1      81  1.8235012261E+02 2.5E+00      56 1.0E+00    25 T  T
+      37   1      75  1.8112673959E+02 2.8E+00      74 1.0E+00    35 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      38   1      75  1.8076163440E+02 1.1E+00      95 3.2E-01    35 F  F
+      39   1      73  1.8048030174E+02 1.1E+00      72 1.0E+00    25 T  T
+      40   1      73  1.7986433277E+02 1.1E+00     103 1.0E+00    35 T  T
+      41   1      71  1.7867287783E+02 1.2E+00     110 1.0E+00    45 T  T
+      42   1      71  1.7747257736E+02 6.6E-01     124 1.0E+00    45 T  T
+      43   1      70  1.7633351505E+02 8.6E-01     127 1.0E+00    45 T  T
+      44   1      69  1.7517733994E+02 8.3E-01     126 1.0E+00    38 T  T
+      45   1      69  1.7400131917E+02 7.1E-01     126 1.2E+00    17 T  T
+      46   1      69  1.7339992384E+02 1.1E+00     125 2.3E-01     5 F  F
+      47   1      69  1.7059469809E+02 1.1E+00     124 4.6E+00     2 T  F
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      48   1      68  1.6988371465E+02 4.0E+00     124 1.0E+00     9 T  T
+      49   1      68  1.6698774896E+02 2.2E+00     122 4.1E+00     7 T  T
+      50   1      66  1.6624515623E+02 2.6E+00     121 1.0E+00     3 T  T
+      51   1      65  1.6482759452E+02 2.4E+00     119 1.0E+00     2 T  T
+      52   1      65  1.6117478712E+02 2.2E+00     118 1.4E+00     1 T  T
+      53   1      65  1.5812046933E+02 1.9E+00     117 1.0E+00     5 T  T
+      54   1      65  1.5476795304E+02 1.6E+00     114 1.0E+00    13 T  T
+      55   1      65  1.5108261577E+02 1.5E+00     114 1.0E+00     1 T  T
+      56   1      65  1.4669460839E+02 1.4E+00     113 1.0E+00    15 T  T
+      57   1      62  1.4226754051E+02 1.3E+00     119 1.0E+00    24 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      58   1      62  1.3188814107E+02 2.0E+00     116 1.0E+00    13 T  T
+      59   1      62  1.2177554476E+02 2.0E+00     115 1.0E+00    17 T  T
+      60   1      59  1.1254216269E+02 2.0E+00     112 1.0E+00    24 T  T
+      61   1      58  1.0449740535E+02 1.4E+00     105 1.0E+00    20 T  T
+      62   1      53  9.5834720366E+01 1.4E+00     106 1.0E+00    30 T  T
+      63   1      50  8.1780150047E+01 4.0E+00     102 1.0E+00    18 T  T
+      64   1      48  7.0438050252E+01 2.0E+00      92 1.0E+00    16 T  T
+      65   1      46  6.0773307353E+01 1.4E+00      90 1.0E+00    20 T  T
+      66   1      43  5.2444991968E+01 1.0E+00      88 1.0E+00    16 T  T
+      67   1      40  4.5737330390E+01 1.0E+00      84 1.0E+00    15 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      68   1      32  3.2780953052E+01 4.0E+00      96 1.0E+00    22 T  T
+      69   1      27  2.7165612861E+01 3.5E+00      87 1.0E+00    22 T  T
+      70   1      25  2.2524821344E+01 2.3E+01      80 1.0E+00    15 T  T
+      71   1      23  1.7847904045E+01 1.0E+00      75 1.0E+00    16 T  T
+      72   1      18  1.4106025506E+01 1.0E+00      75 1.0E+00    25 T  T
+      73   1      13  6.3599957758E+00 2.8E+00      75 1.0E+00    20 T  T
+      74   1       8  2.7951993455E+00 2.8E+00      70 1.0E+00    11 T  T
+      75   1       5  1.2722914998E+00 1.0E+00      64 1.0E+00    11 T  T
+      76   1       2  7.4280062448E-01 1.0E+00      60 1.0E+00    10 T  T
+      77   1       1  5.0721904227E-01 1.0E+00      75 1.0E+00     5 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      78   1       1  7.7961649468E-02 5.0E-01      11 1.0E+00     1 T  T
+ 
+ ** Feasible solution. Value of objective =   -5727.73416979
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      79   3         -5.2823968363E+03 1.0E+02      23 5.1E-01    25 T  T
+      80   3         -4.6910142460E+03 1.7E+02      21 7.0E-01    25 F  F
+      81   3         -4.6287715436E+03 2.6E+01      17 2.5E-01    25 F  F
+      82   3         -4.5601938576E+03 4.8E+01      22 3.9E-01    25 T  T
+      83   3         -4.5355326261E+03 3.1E+01     147 1.0E+00    25 T  T
+      84   3         -4.5148789999E+03 9.1E+00     145 4.2E-01    25 F  F
+      85   3         -4.5068124925E+03 7.5E+00     147 1.0E+00    25 T  T
+      86   3         -4.4958569520E+03 6.8E+00     143 1.0E+00    25 T  T
+      87   3         -4.4879514895E+03 6.2E+00     140 1.0E+00    25 T  T
+      88   3         -4.4759541556E+03 5.7E+00     138 1.0E+00    31 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      89   3         -4.4670455048E+03 5.2E+00     135 1.0E+00    31 T  T
+      90   3         -4.4561433443E+03 6.4E+00     133 1.0E+00    32 T  T
+      91   3         -4.4470192372E+03 4.9E+00     135 1.0E+00    32 T  T
+      92   3         -4.4399932475E+03 4.6E+00     134 1.0E+00    32 T  T
+      93   3         -4.4324642956E+03 4.3E+00     132 1.0E+00    15 T  T
+      94   3         -4.4275448616E+03 4.1E+00     128 1.0E+00    15 T  T
+      95   3         -4.4190527203E+03 2.5E+01     127 1.0E+00    21 T  T
+      96   3         -4.4121274177E+03 2.0E+01     126 1.0E+00    16 F  T
+      97   3         -4.4073155784E+03 1.8E+01     128 8.5E-01    20 F  T
+      98   4         -4.3808908036E+03 2.0E+01     128 1.0E+00    22 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      99   4         -4.3625003664E+03 2.3E+00     116 1.0E+00    22 T  T
+     100   4         -4.3472135202E+03 3.4E+00     108 1.0E+00    21 T  T
+     101   4         -4.3359688922E+03 3.3E+00     107 1.0E+00    24 T  T
+     102   4         -4.3266599300E+03 6.2E-01      95 1.0E+00    41 T  T
+     103   4         -4.3191477907E+03 6.1E-01      83 1.0E+00    24 T  T
+     104   4         -4.3147514105E+03 1.5E+00      79 1.0E+00    20 T  T
+     105   4         -4.3123601293E+03 1.6E+00      72 1.0E+00    36 T  T
+     106   4         -4.3109459469E+03 3.8E-01      64 1.0E+00    30 T  T
+     107   4         -4.3092568224E+03 1.6E-01      71 1.0E+00    50 T  T
+     108   4         -4.3077466781E+03 5.4E-01      66 1.0E+00    23 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+     109   4         -4.3070768551E+03 7.8E-01      62 1.0E+00    15 T  T
+     110   4         -4.3066187428E+03 4.6E-01      61 1.0E+00    23 T  T
+     111   4         -4.3060651908E+03 1.4E-01      58 1.0E+00    31 F  T
+     112   4         -4.3059298356E+03 1.8E-01      58 1.0E+00    16 T  T
+     113   4         -4.3057546419E+03 4.5E-02      57 1.0E+00    18 T  T
+     114   4         -4.3056390448E+03 2.7E-02      57 1.0E+00    20 T  T
+     115   4         -4.3055885460E+03 7.9E-02      58 1.0E+00    15 T  T
+     116   4         -4.3054275902E+03 1.2E-02      54 1.0E+00    37 T  T
+     117   4         -4.3054031024E+03 1.7E-01      53 8.8E-01    10 F  T
+     118   4         -4.3053876190E+03 4.1E-02      53 1.0E+00    10 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+     119   4         -4.3053873753E+03 1.1E-02      53 1.0E+00     8 F  T
+     120   4         -4.3053873752E+03 3.1E-04      53 1.0E+00     3 F  T
+     121   4         -4.3053873752E+03 1.3E-07      53 1.0E+00     2 F  T
+     122   4         -4.3053873752E+03 9.3E-10      53
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:01.635
+--- new1_12.06.gms(453) 5 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(456) 7 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.878E+04] - Zero values observed as well
+--- new1_12.06.gms(456) 5 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:01.635
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          8.1481251393E-08 (Input point)
+ 
+    The pre-triangular part of the model has 9 constraints and 45 variables.
+    The post-triangular part of the model has 607 constraints and variables.
+    There are 607 definitional constraints and defined variables.
+ 
+    Preprocessed model has 899 constraints and 997 variables
+    with 4529 Jacobian elements, 2162 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      8.1472694628E-08 (Full preprocessed model)
+                      1.5644565286E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4305.38737518
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4         -4.3053873752E+03 4.6E-10      49
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:01.762
+--- Generating NLP model CO2
+--- new1_12.06.gms(457) 7 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.878E+04] - Zero values observed as well
+--- new1_12.06.gms(457) 5 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:01.768
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          8.1479451870E-08 (Input point)
+ 
+    The pre-triangular part of the model has 9 constraints and 45 variables.
+    The post-triangular part of the model has 607 constraints and variables.
+    There are 607 definitional constraints and defined variables.
+ 
+    Preprocessed model has 899 constraints and 997 variables
+    with 4529 Jacobian elements, 2162 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      8.1472692647E-08 (Full preprocessed model)
+                      1.5644367181E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4305.38737518
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4         -4.3053873752E+03 3.9E-10      44
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:01.866
+--- Generating NLP model CO2
+--- new1_12.06.gms(458) 7 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.878E+04] - Zero values observed as well
+--- new1_12.06.gms(458) 5 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:01.866
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          8.1479407162E-08 (Input point)
+ 
+    The pre-triangular part of the model has 9 constraints and 45 variables.
+    The post-triangular part of the model has 607 constraints and variables.
+    There are 607 definitional constraints and defined variables.
+ 
+    Preprocessed model has 899 constraints and 997 variables
+    with 4529 Jacobian elements, 2162 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      8.1472692619E-08 (Full preprocessed model)
+                      1.5644364405E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4305.38737518
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4         -4.3053873752E+03 3.9E-10      44
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:01.969
+--- new1_12.06.gms(681) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(685) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.878E+04] - Zero values observed as well
+--- new1_12.06.gms(685) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:01.969
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          5.9184257763E+01 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 577 definitional constraints and defined variables.
+ 
+    Preprocessed model has 933 constraints and 1032 variables
+    with 4344 Jacobian elements, 1950 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      5.8077833577E+02 (Full preprocessed model)
+                      7.2279222984E+00 (After scaling)
+                      3.6142461879E+00 (After adjusting individual variables)
+       1  S0          3.4724510008E+00                 1.0E+00     6 T  T
+       2  S0          2.7827354600E+00                 1.0E+00     4 T  T
+       3   0          2.3964504547E+00                 1.0E+00     5 T  T
+       4   0          2.3820311424E+00                 1.0E+00     1 T  T
+       5   0          2.3820265763E+00                 1.0E+00     1 T  T
+       6   1      16  1.1564383354E+00 4.5E+03      29 1.0E+00    25 T  T
+       7   1       2  4.6925635494E-01 2.3E+01      25 1.0E+00    29 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       8   1       2  5.2963982690E-02 2.6E+02       9 9.9E-01    12 T  T
+       9   1       1  3.1344021953E-03 8.3E+02       2 1.0E+00     2 T  T
+ 
+ ** Feasible solution. Value of objective =   -4308.19253740
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      10   3         -4.3079833503E+03 4.4E+01      25 1.1E-01    25 F  T
+      11   4         -4.3069322774E+03 4.6E+01      53 1.0E+00    25 T  T
+      12   4         -4.3067630255E+03 6.5E+00      39 1.0E+00    18 T  T
+      13   4         -4.3067502362E+03 7.9E-02      54 1.0E+00    40 T  T
+      14   4         -4.3067261091E+03 6.6E-02      54 1.0E+00    31 T  T
+      15   4         -4.3066991751E+03 4.8E-02      51 1.0E+00    52 T  T
+      16   4         -4.3066944543E+03 4.5E-01      49 1.0E+00    15 T  T
+      17   4         -4.3066925845E+03 2.1E-03      49 1.0E+00    15 T  T
+      18   4         -4.3066925777E+03 6.9E-02      48 1.0E+00     5 T  T
+      19   4         -4.3066925777E+03 9.6E-07      47 1.0E+00     1 F  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      20   4         -4.3066925777E+03 1.2E-08      47
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:02.261
+--- Generating NLP model CO2
+--- new1_12.06.gms(686) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 3.980E-08, 7.879E+04] - Zero values observed as well
+--- new1_12.06.gms(686) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:02.261
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.1101929066E-08 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 604 definitional constraints and defined variables.
+ 
+    Preprocessed model has 906 constraints and 1005 variables
+    with 4267 Jacobian elements, 1927 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.2704578547E-08 (Full preprocessed model)
+                      3.4161167046E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4306.69257773
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.3066925777E+03 1.8E+01      15 1.0E+00    13 T  T
+       2   4         -4.3066925777E+03 8.2E-09      42
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:02.465
+--- Generating NLP model CO2
+--- new1_12.06.gms(687) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 3.980E-08, 7.879E+04] - Zero values observed as well
+--- new1_12.06.gms(687) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:02.471
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.2729424905E-08 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 604 definitional constraints and defined variables.
+ 
+    Preprocessed model has 906 constraints and 1005 variables
+    with 4267 Jacobian elements, 1927 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.2726028289E-08 (Full preprocessed model)
+                      3.4161286525E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4306.69257773
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.3066925777E+03 1.8E+01       9 1.0E+00     8 T  T
+       2   4         -4.3066925777E+03 8.2E-09      42
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:02.740
+--- new1_12.06.gms(903) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(908) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 3.980E-08, 7.879E+04] - Zero values observed as well
+--- new1_12.06.gms(908) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:02.748
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          6.5105823583E+01 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 573 definitional constraints and defined variables.
+ 
+    Preprocessed model has 937 constraints and 1036 variables
+    with 4239 Jacobian elements, 1829 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.6712712571E+03 (Full preprocessed model)
+                      1.1426897748E+01 (After scaling)
+                      7.3804400200E+00 (After adjusting individual variables)
+       1   0          7.3767496223E+00                 1.0E+00     7 T  T
+       2   0          7.0431419375E+00                 1.0E+00     8 T  T
+       3   0          6.6002563681E+00                 1.0E+00     7 T  T
+       4   0          6.1120703552E+00                 1.0E+00     6 T  T
+       5   0          5.9890091207E+00                 1.0E+00     4 T  T
+       6   0          5.9888610350E+00                 1.0E+00     1 T  T
+       7   0          5.9888492512E+00                 1.0E+00     1 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       8   1      86  4.4825439759E+00 2.2E+01      22 1.0E+00    25 T  T
+       9   1      39  3.8405395928E+00 5.1E+01      58 1.0E+00    25 T  T
+      10   1      39  2.8272397376E+00 3.0E+01      23 7.1E-01    25 F  F
+      11   1      38  1.6242693588E+00 2.5E+01      30 8.0E-01    25 T  T
+      12   1      15  1.2750303097E+00 2.2E+01      34 1.0E+00    25 T  T
+      13   1      12  1.0278243427E+00 4.7E+02      35 1.0E+00    25 T  T
+      14   1      12  8.3258635338E-01 4.7E-01      33 1.5E+00    25 T  F
+      15   1      12  5.9101549003E-01 1.9E+01      33 3.4E+00    25 T  T
+      16   1      11  4.6636039831E-01 6.5E+00      46 1.0E+00    16 T  T
+      17   1      11  3.3044072736E-01 4.6E+01      37 1.0E+00    35 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      18   1       9  1.9018349683E-01 1.0E+01      41 1.0E+00    33 T  T
+      19   1       6  1.0040957728E-01 7.3E+00      47 1.0E+00    11 T  T
+      20   1       5  5.5204468666E-02 5.7E+00      44 1.0E+00    11 T  T
+      21   1       3  1.3652639823E-02 4.5E+00      54 1.0E+00    18 T  T
+      22   1       1  2.0251709064E-03 1.0E+00       4 1.0E+00     4 T  T
+ 
+ ** Feasible solution. Value of objective =   -5456.16197410
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      23   3         -5.1157648790E+03 3.6E+03      19 4.8E-01    25 F  F
+      24   3         -4.9847636661E+03 1.6E+02      86 3.3E-01    25 T  T
+      25   3         -4.9356601052E+03 7.8E+03      87 3.5E-01    25 F  F
+      26   3         -4.8705146491E+03 6.7E+03      87 1.0E+00    23 T  T
+      27   3         -4.8473754687E+03 1.4E+02      73 1.0E+00    20 T  T
+      28   3         -4.8446177845E+03 4.3E+01      72 3.4E-01    21 F  T
+      29   3         -4.8434564497E+03 7.6E+03      73 1.0E+00    25 T  T
+      30   3         -4.8428470214E+03 4.2E+01      70 6.0E-01    20 F  T
+      31   4         -4.8404510227E+03 1.1E+01      70 1.0E+00    24 T  T
+      32   4         -4.8403703404E+03 2.2E+00      54 1.0E+00    20 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      33   4         -4.8403541719E+03 4.0E+00      51 1.0E+00    17 T  T
+      34   4         -4.8403506828E+03 1.1E+00      49 1.0E+00    13 T  T
+      35   4         -4.8403427558E+03 7.2E-01      48 1.0E+00    24 T  T
+      36   4         -4.8403398104E+03 1.1E-01      44 1.0E+00    21 T  T
+      37   4         -4.8403390429E+03 1.4E-01      40 1.0E+00    24 T  T
+      38   4         -4.8403365852E+03 7.9E-02      41 1.0E+00    22 T  T
+      39   4         -4.8403341237E+03 2.3E-02      43 1.0E+00    13 T  T
+      40   4         -4.8403338771E+03 6.1E-03      39 1.0E+00     6 T  T
+      41   4         -4.8403338771E+03 9.8E-06      38 1.0E+00     3 F  T
+      42   4         -4.8403338771E+03 1.7E-09      38
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:03.267
+--- Generating NLP model CO2
+--- new1_12.06.gms(909) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 6.425E-09, 1.372E+06] - Zero values observed as well
+--- new1_12.06.gms(909) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:03.276
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.0782877966E-08 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 573 definitional constraints and defined variables.
+ 
+    Preprocessed model has 937 constraints and 1036 variables
+    with 4239 Jacobian elements, 1829 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.0777115222E-08 (Full preprocessed model)
+                      2.3957829393E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4840.33387709
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.8403338771E+03 4.4E+00      21 1.0E+00    14 T  T
+       2   4         -4.8403338771E+03 1.7E-09      34
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:03.389
+--- Generating NLP model CO2
+--- new1_12.06.gms(910) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 6.425E-09, 1.372E+06] - Zero values observed as well
+--- new1_12.06.gms(910) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:03.402
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.0792912665E-08 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 573 definitional constraints and defined variables.
+ 
+    Preprocessed model has 937 constraints and 1036 variables
+    with 4239 Jacobian elements, 1829 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.0786483603E-08 (Full preprocessed model)
+                      2.3959034158E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4840.33387709
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.8403338771E+03 3.7E+00       9 1.0E+00     9 T  T
+       2   4         -4.8403338771E+03 1.7E-09      34
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:03.520
+--- new1_12.06.gms(1123) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(1126) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 6.425E-09, 1.372E+06] - Zero values observed as well
+--- new1_12.06.gms(1126) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:03.529
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          4.8961113766E-01 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 570 definitional constraints and defined variables.
+ 
+    Preprocessed model has 940 constraints and 1039 variables
+    with 4343 Jacobian elements, 1970 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      9.5133663121E+02 (Full preprocessed model)
+                      7.1197272007E-01 (After scaling)
+                      7.0126432340E-01 (After adjusting individual variables)
+       1   0          6.1173070571E-02                 1.0E+00     1 T  T
+       2   0          3.6947401951E-02                 1.0E+00     1 T  T
+       3   0          3.6947315087E-02                 1.0E+00     1 T  T
+       4   1       1  2.0155831603E-06 3.8E+05      19 1.0E+00    11 T  T
+ 
+ ** Feasible solution. Value of objective =   -4851.56999906
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       5   3         -4.6533712032E+03 8.0E+01      19 3.7E-01    25 F  F
+       6   3         -4.5514148140E+03 5.8E+01      64 2.6E-01    25 T  T
+       7   3         -4.4370650930E+03 7.1E+01      68 3.0E-01    25 T  T
+       8   3         -4.3666122965E+03 6.8E+01      67 4.5E-01    25 F  F
+       9   3         -4.3541175308E+03 4.1E+01      70 2.1E-01    25 F  F
+      10   3         -4.3454202812E+03 5.0E+01      71 3.3E-01    25 F  T
+      11   4         -4.3297450257E+03 4.5E+01      71 6.7E-01    25 F  F
+      12   4         -4.3237340252E+03 3.4E+01      67 5.1E-01    34 F  F
+      13   4         -4.3208182914E+03 2.8E+01      67 6.1E-01    28 F  F
+      14   4         -4.3197723756E+03 2.5E+01      67 1.0E+00    23 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      15   4         -4.3194624053E+03 2.4E+00      49 8.8E-01    19 F  T
+      16   4         -4.3193691394E+03 7.5E-01      51 1.0E+00    14 T  T
+      17   4         -4.3193153525E+03 1.6E-01      49 1.0E+00    19 T  T
+      18   4         -4.3193137383E+03 7.8E-02      49 1.0E+00    13 F  T
+      19   4         -4.3193137374E+03 3.2E-03      49 1.0E+00     8 F  T
+      20   4         -4.3193137374E+03 1.9E-05      49 1.0E+00     3 F  T
+      21   4         -4.3193137374E+03 2.2E-08      49
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:03.949
+--- Generating NLP model CO2
+--- new1_12.06.gms(1127) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 7.520E-08, 8.015E+04] - Zero values observed as well
+--- new1_12.06.gms(1127) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:03.958
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.0990090275E-06 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 572 definitional constraints and defined variables.
+ 
+    Preprocessed model has 938 constraints and 1037 variables
+    with 4338 Jacobian elements, 1967 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.0979342400E-06 (Full preprocessed model)
+                      1.2507477952E-09 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4319.31373739
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.3193137374E+03 3.4E+01      20 1.0E+00    19 T  T
+       2   4         -4.3193137374E+03 2.6E-09      48
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:04.073
+--- Generating NLP model CO2
+--- new1_12.06.gms(1128) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 7.520E-08, 8.015E+04] - Zero values observed as well
+--- new1_12.06.gms(1128) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:04.077
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.0979163243E-06 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 570 definitional constraints and defined variables.
+ 
+    Preprocessed model has 940 constraints and 1039 variables
+    with 4342 Jacobian elements, 1969 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.0979144708E-06 (Full preprocessed model)
+                      1.2507472332E-09 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4319.31373739
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.3193137374E+03 3.4E+01      11 1.0E+00     9 T  T
+       2   4         -4.3193137374E+03 2.6E-09      47
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:04.173
+--- new1_12.06.gms(1347) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(1349) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 7.520E-08, 8.015E+04] - Zero values observed as well
+--- new1_12.06.gms(1349) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:04.188
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.7546620167E+04 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 486 definitional constraints and defined variables.
+ 
+    Preprocessed model has 1024 constraints and 1123 variables
+    with 4000 Jacobian elements, 1594 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.4670467803E+04 (Full preprocessed model)
+                      7.0619809961E+01 (After scaling)
+                      2.4669724936E+01 (After adjusting individual variables)
+       1  S0          2.5287786234E+01                 1.0E+00     6 T  T
+       2  S0          2.7846516426E+01                 5.0E-01     4 F  F
+       3   0          2.5913854824E+01                 5.0E-01     2 F  F
+       4  S0          2.4114136004E+01                 1.0E+00     1 T  T
+       5  S0          2.4068029300E+01                 1.0E+00     1 T  T
+       6   0          2.4068023438E+01                 1.0E+00     1 T  T
+       7   1      71  1.8620879313E+01 8.6E+02      24 1.0E+00    25 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       8   1      71  1.7118522973E+01 6.6E+02      24 3.9E-01    25 F  F
+       9   1      71  1.5174154060E+01 1.4E+06      34 6.8E-01    25 F  F
+      10   1      71  1.3374712490E+01 8.5E+03      33 7.0E-01    25 F  F
+      11   1      71  1.2126061904E+01 2.2E+03      32 6.8E-01    25 T  T
+      12   1      71  1.0811733792E+01 1.5E+05      49 5.7E-01    25 F  F
+      13   1      35  9.6742715962E+00 2.4E+00      46 1.0E+00    25 T  T
+      14   1      35  9.5370656260E+00 3.6E+03      22 1.6E-01    25 T  T
+      15   1      33  9.2743292238E+00 4.2E+00      19 1.0E+00    25 T  T
+      16   1      33  9.1439359038E+00 1.2E+01      23 4.4E-01    25 T  T
+      17   1      33  9.0296085356E+00 1.7E+00      37 1.0E+00    25 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      18   1      32  8.8354186886E+00 2.3E+00      51 1.0E+00    35 T  T
+      19   1      29  8.4386300901E+00 1.0E+00      96 1.0E+00    38 T  T
+      20   1      28  7.6861471075E+00 1.0E+00      84 1.0E+00    22 T  T
+      21   1      28  6.6429020487E+00 7.8E-01      73 1.0E+00    15 T  T
+      22   1      23  5.8976522380E+00 1.4E+01      44 1.0E+00    31 T  T
+      23   1      22  5.3166568849E+00 3.2E+01      55 1.0E+00    42 T  T
+      24   1      21  4.8472878054E+00 3.0E+01      42 1.0E+00    27 T  T
+      25   1      20  4.3429269934E+00 4.0E+00      36 1.0E+00    34 T  T
+      26   1      19  3.7326314886E+00 3.3E+01      49 1.0E+00    42 T  T
+      27   1      18  3.1852008346E+00 2.6E+01      71 1.0E+00    42 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      28   1      15  2.8389296761E+00 4.3E+00      32 1.0E+00    29 T  T
+      29   1      13  2.5302752455E+00 9.2E-01      63 1.0E+00    17 T  T
+      30   1      11  2.1974487563E+00 3.5E+00      52 1.0E+00    43 T  T
+      31   1       8  2.0150160282E+00 4.2E+00      57 1.0E+00    20 T  T
+      32   1       8  1.8875290197E+00 4.7E-01      52 7.5E-01    39 F  F
+      33   1       8  1.8476898639E+00 8.5E-01      53 1.2E+00    11 T  T
+      34   1       7  1.7764740614E+00 6.5E-01      46 1.0E+00    35 T  T
+      35   1       6  1.6405382615E+00 9.1E-01      45 1.0E+00    34 T  T
+      36   1       5  1.5390709723E+00 9.6E-01      47 1.0E+00    17 T  T
+      37   1       4  1.4577914069E+00 8.5E-01      48 1.0E+00    27 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      38   1       4  1.4048005891E+00 3.2E-01      48 1.0E+00    36 T  T
+      39   1       4  1.3589246280E+00 3.0E+00      40 1.0E+00    24 T  T
+      40   1       4  1.3101865433E+00 5.8E-02      38 1.0E+00    18 T  T
+      41   1       3  1.2680366158E+00 9.2E-01      37 1.0E+00    18 T  T
+      42   1       3  1.1419870894E+00 6.6E-02      41 2.6E+00    16 T  T
+      43   1       2  1.1050438241E+00 1.2E+00      40 1.0E+00    16 T  T
+      44   1       2  1.0935933543E+00 3.5E-02      47 1.0E+00    35 T  T
+      45   1       2  1.0729547268E+00 5.9E+03      39 1.0E+00    28 T  T
+      46   1       2  1.0227338042E+00 2.4E-02      39 2.8E+00    21 T  T
+      47   1       2  1.0024083217E+00 6.9E-02      42 1.0E+00    33 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      48   1       2  9.8320154794E-01 1.0E-01      39 1.0E+00    18 T  T
+      49   1       2  9.6017802538E-01 1.8E-01      36 1.0E+00    33 T  T
+      50   1       2  9.1626708539E-01 3.9E-02      28 1.8E+00    10 T  T
+      51   1       2  8.9326483463E-01 3.9E+03      30 1.0E+00    19 T  T
+      52   1       2  8.7268254735E-01 3.8E-02      28 1.0E+00    12 T  T
+      53   1       2  8.5094923155E-01 3.7E-02      31 1.0E+00    22 T  T
+      54   1       2  7.9074056596E-01 7.7E-02      28 2.4E+00     8 T  T
+      55   1       2  7.6757286795E-01 7.7E-02      25 1.0E+00     9 T  T
+      56   1       2  6.9122478349E-01 6.3E-02      23 3.0E+00     3 T  T
+      57   1       2  6.5874415349E-01 6.3E-02      25 1.3E+00     4 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+      58   1       2  6.4265492794E-01 6.3E-02      25 1.0E+00     3 T  T
+      59   1       2  5.6785560084E-01 1.5E-01      25 2.4E+00     8 T  T
+      60   1       2  4.7516370597E-01 1.3E-01      18 1.6E+00     2 T  T
+      61   1       2  4.2762683637E-01 1.3E-01      24 1.0E+00     6 T  T
+      62   1       2  3.7001294249E-01 1.3E-01      20 1.0E+00     3 T  T
+      63   1       2  2.7583226556E-01 1.3E-01      19 1.6E+00     2 T  T
+      64   1       2  1.8794595547E-01 1.3E+00      21 1.0E+00    17 T  T
+      65   1       1  1.1125628396E-01 2.0E+02       2 1.0E+00     2 T  T
+      66   1       1  6.1748654494E-02 6.0E+01       5 1.0E+00     5 T  T
+      67   1       1  9.4171260263E-03 9.3E-02      10 1.1E+00     1 T  T
+ 
+ ** Feasible solution. Value of objective =   -5643.84171599
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      68   3         -4.8633762838E+03 1.6E+02      23 7.0E-01    25 F  F
+      69   3         -4.5985704522E+03 5.2E+01      21 4.9E-01    25 F  F
+      70   3         -4.4916174444E+03 1.9E+02      26 4.8E-01    25 F  F
+      71   3         -4.4712637476E+03 4.0E+01      74 3.1E-01    25 F  T
+      72   3         -4.4354529799E+03 3.7E+01      74 4.0E-01    25 F  T
+      73   3         -4.4133600695E+03 3.2E+01      29 3.7E-01    25 F  F
+      74   3         -4.3960558857E+03 5.0E+01      27 1.0E+00    25 T  T
+      75   3         -4.3855509690E+03 1.1E+01      31 1.0E+00    25 T  T
+      76   3         -4.3806488262E+03 8.7E+00      72 1.0E+00    21 T  T
+      77   3         -4.3752735964E+03 7.2E+00      69 1.0E+00    25 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      78   3         -4.3710963584E+03 5.4E+00      67 1.0E+00    24 T  T
+      79   3         -4.3650176455E+03 7.3E+00      67 1.0E+00    28 T  T
+      80   3         -4.3606062130E+03 5.8E+00      65 1.0E+00    15 T  T
+      81   3         -4.3572701744E+03 2.7E+00      65 1.0E+00     7 T  T
+      82   3         -4.3548971087E+03 3.2E+00      62 5.7E-01    16 F  T
+      83   4         -4.3417673134E+03 5.2E+00      62 1.0E+00    23 T  T
+      84   4         -4.3329683288E+03 1.1E+00      51 1.0E+00    17 T  T
+      85   4         -4.3264164903E+03 4.0E-01      48 1.0E+00    16 T  T
+      86   4         -4.3212218788E+03 1.5E-01      44 1.0E+00    19 T  T
+      87   4         -4.3167539794E+03 1.4E-01      40 1.0E+00    19 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      88   4         -4.3128104480E+03 2.0E+00      36 1.3E+00    13 F  F
+      89   4         -4.3109703849E+03 1.1E+00      36 1.0E+00    22 T  T
+      90   4         -4.3099084005E+03 4.9E-01      32 1.0E+00    15 T  T
+      91   4         -4.3094595054E+03 2.1E-01      31 1.0E+00    12 F  T
+      92   4         -4.3093315962E+03 6.9E-02      31 1.0E+00    14 F  T
+      93   4         -4.3079646730E+03 1.7E-02      37 1.0E+00    12 F  T
+      94   4         -4.3074493945E+03 1.7E-01      37 1.0E+00     8 F  T
+      95   4         -4.3073093315E+03 5.6E-02      37 1.0E+00    18 F  T
+      96   4         -4.3072976403E+03 5.0E-02      37 1.0E+00     7 F  T
+      97   4         -4.3072974196E+03 3.1E-03      37 1.0E+00     5 F  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      98   4         -4.3072974195E+03 9.5E-05      37 1.0E+00     3 F  T
+      99   4         -4.3072974195E+03 8.0E-08      37
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:05.035
+--- Generating NLP model CO2
+--- new1_12.06.gms(1350) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.875E+04] - Zero values observed as well
+--- new1_12.06.gms(1350) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:05.047
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.1783540468E-07 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 538 definitional constraints and defined variables.
+ 
+    Preprocessed model has 972 constraints and 1071 variables
+    with 4023 Jacobian elements, 1603 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.1783183156E-07 (Full preprocessed model)
+                      3.1343636531E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4307.29741951
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.3072974195E+03 3.4E+01      10 1.0E+00    10 T  T
+       2   4         -4.3072974195E+03 8.0E-08      29
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:05.223
+--- Generating NLP model CO2
+--- new1_12.06.gms(1351) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.875E+04] - Zero values observed as well
+--- new1_12.06.gms(1351) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:05.223
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.1783816114E-07 (Input point)
+ 
+    The pre-triangular part of the model has 3 constraints and 38 variables.
+    The post-triangular part of the model has 609 constraints and variables.
+    There are 538 definitional constraints and defined variables.
+ 
+    Preprocessed model has 972 constraints and 1071 variables
+    with 4023 Jacobian elements, 1603 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.1783396487E-07 (Full preprocessed model)
+                      3.1343677307E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4307.29741951
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.3072974195E+03 2.5E+01       6 1.0E+00     6 T  T
+       2   4         -4.3072974195E+03 8.0E-08      29
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:05.401
+--- new1_12.06.gms(1574) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(1576) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.875E+04] - Zero values observed as well
+--- new1_12.06.gms(1576) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:05.411
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          4.6051123918E+03 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 593 definitional constraints and defined variables.
+ 
+    Preprocessed model has 792 constraints and 887 variables
+    with 4246 Jacobian elements, 2062 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.2754360065E+04 (Full preprocessed model)
+                      3.9044512600E+01 (After scaling)
+                      1.2844632865E+01 (After adjusting individual variables)
+       1   0          1.1345472463E+01                 2.5E-01     4 F  F
+       2   0          7.9109398378E+00                 5.0E-01     1 F  F
+       3   0          3.1320888568E+00                 1.0E+00     1 T  T
+       4   0          7.1916383035E-01                 1.0E+00     1 T  T
+       5   0          6.1194225490E-01                 1.0E+00     1 T  T
+       6   0          6.1125183600E-01                 1.0E+00     1 T  T
+       7   0          6.1125178554E-01                 1.0E+00     1 T  T
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       8   1       1  6.7272058753E-02 1.0E+00       3 1.0E+00     3 T  T
+ 
+ ** Feasible solution. Value of objective =   -4312.14854786
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       9   3         -4.3117610885E+03 3.4E+01      73 1.0E+00    25 T  T
+      10   3         -4.3117450572E+03 5.7E-01      53 2.0E-02    25 F  T
+      11   4         -4.3116733842E+03 5.8E-01      53 9.1E-01    25 F  T
+      12   4         -4.3116676061E+03 6.9E-01      53 1.0E+00    24 T  T
+      13   4         -4.3116669371E+03 8.6E-03      37 1.0E+00    14 F  T
+      14   4         -4.3116669335E+03 4.2E-04      37 1.0E+00    13 F  T
+      15   4         -4.3116669335E+03 1.0E-05      37 1.0E+00    11 F  T
+      16   4         -4.3116669335E+03 2.9E-07      37 1.0E+00     4 F  T
+      17   4         -4.3116669335E+03 2.8E-08      37
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:05.629
+--- Generating NLP model CO2
+--- new1_12.06.gms(1577) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.872E+04] - Zero values observed as well
+--- new1_12.06.gms(1577) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:05.647
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.7752795397E-06 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 593 definitional constraints and defined variables.
+ 
+    Preprocessed model has 792 constraints and 887 variables
+    with 4246 Jacobian elements, 2062 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.8170253750E-06 (Full preprocessed model)
+                      4.0416426074E-09 (After scaling)
+       1   0          5.9904950792E-10                 1.0E+00     1 T  T
+ 
+ ** Feasible solution. Value of objective =   -4311.66693347
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       2   3         -4.3116669335E+03 1.8E+01      62 0.0E+00    16 F  T
+       3   4         -4.3116669335E+03 1.8E+01      25 1.0E+00     9 T  T
+       4   4         -4.3116669335E+03 6.9E-08      11 1.0E+00     3 F  T
+       5   4         -4.3116669335E+03 5.2E-08      12
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:05.769
+--- Generating NLP model CO2
+--- new1_12.06.gms(1578) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 7.872E+04] - Zero values observed as well
+--- new1_12.06.gms(1578) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:05.784
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          7.6614754542E-07 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 593 definitional constraints and defined variables.
+ 
+    Preprocessed model has 792 constraints and 887 variables
+    with 4246 Jacobian elements, 2062 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      7.6613594869E-07 (Full preprocessed model)
+                      5.7541222134E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =   -4311.66693347
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3         -4.3116669335E+03 1.8E+01      47 0.0E+00    14 F  T
+       2   4         -4.3116669335E+03 1.8E+01      10 1.0E+00     6 T  T
+       3   4         -4.3116669335E+03 4.8E-08       4
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:05.905
+--- new1_12.06.gms(1812) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(1813) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.607E-07, 2.238E+04] - Zero values observed as well
+--- new1_12.06.gms(1813) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:05.917
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          6.9982194129E+05 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 533 definitional constraints and defined variables.
+ 
+    Preprocessed model has 852 constraints and 947 variables
+    with 4357 Jacobian elements, 2059 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      7.3954909954E+00 (Full preprocessed model)
+                      3.4759076583E-02 (After scaling)
+                      1.1781214993E-02 (After adjusting individual variables)
+       1   0          1.1529684496E-02                 1.0E+00     1 T  T
+       2   0          1.1529680263E-02                 1.0E+00     1 T  T
+ 
+ ** Feasible solution. Value of objective =    22960.3188979
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       3   3          2.2972477803E+04 2.9E+03      99 1.7E-02    25 F  T
+       4   3          2.2973426357E+04 1.6E+03      99 1.1E-02    10 F  T
+       5   3          2.2977507820E+04 8.7E+02      99 3.6E-02    10 F  T
+       6   3          2.2982735094E+04 8.8E+02      99 1.2E-01    10 F  T
+       7   3          2.2987140413E+04 8.8E+02      99 3.7E-01    15 F  T
+       8   4          2.3022239547E+04 9.0E+02      99 5.4E-01    25 F  F
+       9   4          2.3028134058E+04 3.4E+01      94 7.7E-01    36 F  F
+      10   4          2.3029705755E+04 2.9E+01      94 8.9E-01    35 F  F
+      11   4          2.3030399763E+04 2.8E+01      94 9.1E-01    42 F  F
+      12   4          2.3030411837E+04 2.7E+01      94 2.2E-01    35 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      13   4          2.3030452366E+04 2.7E+01      93 1.0E+00    25 T  T
+      14   4          2.3030452372E+04 1.4E-02      59 1.0E+00    10 F  T
+      15   4          2.3030452372E+04 1.7E-06      59 1.0E+00     3 F  T
+      16   4          2.3030452372E+04 5.2E-08      59
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:06.222
+--- Generating NLP model CO2
+--- new1_12.06.gms(1814) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.327E-07, 2.341E+04] - Zero values observed as well
+--- new1_12.06.gms(1814) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:06.222
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          3.5242754965E-07 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 533 definitional constraints and defined variables.
+ 
+    Preprocessed model has 852 constraints and 947 variables
+    with 4357 Jacobian elements, 2059 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      3.5297785727E-07 (Full preprocessed model)
+                      1.3910120404E-09 (After scaling)
+       1   0          6.3779432994E-10                 1.0E+00     1 T  T
+ 
+ ** Feasible solution. Value of objective =    23030.4523718
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       2   3          2.3030452372E+04 1.5E+03      79 2.5E-11     6 F  T
+       3   4          2.3030452372E+04 9.7E-08      46
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:06.431
+--- Generating NLP model CO2
+--- new1_12.06.gms(1815) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.327E-07, 2.341E+04] - Zero values observed as well
+--- new1_12.06.gms(1815) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:06.431
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          3.2036424050E-09 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 533 definitional constraints and defined variables.
+ 
+    Preprocessed model has 852 constraints and 947 variables
+    with 4357 Jacobian elements, 2059 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      3.1975646688E-09 (Full preprocessed model)
+                      3.8436885619E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    23030.4523718
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3          2.3030452372E+04 1.5E+03      84 2.8E-11    16 F  T
+       2   4          2.3030452372E+04 4.8E-08      45
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:06.637
+--- new1_12.06.gms(2039) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(2041) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.327E-07, 2.341E+04] - Zero values observed as well
+--- new1_12.06.gms(2041) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:06.655
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.2336622961E+06 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      4.2049713123E+01 (Full preprocessed model)
+                      1.7873172294E-01 (After scaling)
+                      8.2159930431E-03 (After adjusting individual variables)
+       1   0          8.3687796935E-05                 1.0E+00     1 T  T
+       2   0          1.1053669208E-09                 1.0E+00     1 T  T
+ 
+ ** Feasible solution. Value of objective =    33796.7833738
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       3   3          3.3828339321E+04 6.8E+03     106 8.7E-02    25 F  T
+       4   3          3.3868001476E+04 1.9E+03     106 2.1E-01    10 F  T
+       5   4          3.4022832258E+04 2.1E+03     106 1.0E+00    25 T  T
+       6   3          3.4037364709E+04 2.7E+03      77 3.5E-02    25 F  T
+       7   3          3.4045553046E+04 2.7E+02      78 3.2E-02    10 F  T
+       8   3          3.4053379995E+04 3.3E+01      78 8.9E-02    10 F  T
+       9   4          3.4066487165E+04 6.2E+01      78 7.0E-01    23 F  F
+      10   4          3.4068335620E+04 8.2E+00      77 1.0E+00    21 T  T
+      11   4          3.4068624762E+04 2.2E+00      59 1.0E+00    13 F  T
+      12   4          3.4068635040E+04 3.8E+00      59 1.0E+00    12 T  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      13   4          3.4068635044E+04 2.5E-03      58 1.0E+00     8 F  T
+      14   4          3.4068635044E+04 5.5E-06      58 1.0E+00     2 F  T
+      15   4          3.4068635044E+04 2.4E-08      58
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:06.922
+--- Generating NLP model CO2
+--- new1_12.06.gms(2042) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.067E-07, 2.346E+04] - Zero values observed as well
+--- new1_12.06.gms(2042) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:06.922
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.6374231972E-07 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.6373447753E-07 (Full preprocessed model)
+                      3.7322228196E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    34068.6350440
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          3.4068635044E+04 2.1E-08      51
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:07.050
+--- Generating NLP model CO2
+--- new1_12.06.gms(2043) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.067E-07, 2.346E+04] - Zero values observed as well
+--- new1_12.06.gms(2043) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:07.059
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.6373733321E-07 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.6373447765E-07 (Full preprocessed model)
+                      3.7322239732E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    34068.6350440
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          3.4068635044E+04 2.1E-08      51
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:07.170
+--- new1_12.06.gms(2264) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(2266) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.067E-07, 2.346E+04] - Zero values observed as well
+--- new1_12.06.gms(2266) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:07.183
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.1437626637E+06 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      4.7296328221E+01 (Full preprocessed model)
+                      1.7045333656E-01 (After scaling)
+                      9.2202031834E-03 (After adjusting individual variables)
+       1   0          1.7126951368E-03                 1.0E+00     1 T  T
+       2   0          1.6889839936E-03                 1.0E+00     1 T  T
+ 
+ ** Feasible solution. Value of objective =    55820.3089930
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       3   3          5.5870036285E+04 1.6E+04      24 4.8E-02    25 F  F
+       4   3          5.5881839725E+04 2.1E+03      11 1.0E-01    10 F  T
+       5   3          5.5911694871E+04 2.0E+03      11 9.7E-02    15 F  T
+       6   3          5.5956567465E+04 2.1E+03      14 2.6E-01    10 F  T
+       7   4          5.6118829984E+04 2.0E+03      37 1.0E+00    21 T  T
+       8   4          5.6134903307E+04 1.3E+01      64 1.0E+00    19 T  T
+       9   4          5.6139294398E+04 3.6E+00      59 1.0E+00    21 T  T
+      10   4          5.6139405779E+04 4.9E+00      56 1.0E+00    13 T  T
+      11   4          5.6139436282E+04 6.2E+00      55 1.0E+00     8 F  T
+      12   4          5.6139436285E+04 2.6E-01      55 1.0E+00     5 F  T
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      13   4          5.6139436285E+04 3.1E-05      55 1.0E+00     2 F  T
+      14   4          5.6139436285E+04 6.7E-09      55
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:07.363
+--- Generating NLP model CO2
+--- new1_12.06.gms(2267) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 8.045E-08, 2.348E+04] - Zero values observed as well
+--- new1_12.06.gms(2267) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:07.365
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          4.3255029748E-09 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      4.3239395582E-09 (Full preprocessed model)
+                      3.6991851205E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    56139.4362850
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          5.6139436285E+04 6.7E-09      43
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:07.558
+--- Generating NLP model CO2
+--- new1_12.06.gms(2268) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 8.045E-08, 2.348E+04] - Zero values observed as well
+--- new1_12.06.gms(2268) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:07.564
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          4.3260218522E-09 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      4.3239389476E-09 (Full preprocessed model)
+                      3.6991578854E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    56139.4362850
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          5.6139436285E+04 6.7E-09      43
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:07.744
+--- new1_12.06.gms(2489) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(2490) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 8.045E-08, 2.348E+04] - Zero values observed as well
+--- new1_12.06.gms(2490) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:07.744
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          4.5501627994E+06 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      3.8822556623E+01 (Full preprocessed model)
+                      1.4244008365E-01 (After scaling)
+                      9.1749252298E-03 (After adjusting individual variables)
+       1   0          2.6944880677E-03                 1.0E+00     1 T  T
+       2   0          2.6772603561E-03                 1.0E+00     1 T  T
+       3   1       7  4.0391718019E-04 7.3E+01      21 1.0E+00    12 T  T
+       4   1       3  9.3614397553E-07 1.0E+00       4 1.0E+00     4 T  T
+ 
+ ** Feasible solution. Value of objective =    111992.674721
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       5   3          1.1205816573E+05 1.7E+04      81 1.5E-01    25 F  T
+       6   3          1.1217701480E+05 2.4E+03      85 6.7E-02    25 F  T
+       7   3          1.1223223522E+05 2.4E+03      85 3.5E-01    10 F  T
+       8   4          1.1238358654E+05 2.3E+03      85 1.0E+00    25 T  T
+       9   4          1.1240629814E+05 1.6E+02      55 1.0E+00    19 T  T
+      10   4          1.1242674584E+05 1.1E+01      55 1.0E+00    33 T  T
+      11   4          1.1242680266E+05 3.6E+01      51 1.0E+00    10 T  T
+      12   4          1.1242680267E+05 6.2E-02      50 1.0E+00     5 F  T
+      13   4          1.1242680267E+05 1.7E-06      50 1.0E+00     1 F  T
+      14   4          1.1242680267E+05 2.0E-08      50
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:07.998
+--- Generating NLP model CO2
+--- new1_12.06.gms(2491) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 5.388E-08, 2.349E+04] - Zero values observed as well
+--- new1_12.06.gms(2491) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:08.004
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.6377653824E-09 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.6187489639E-09 (Full preprocessed model)
+                      2.8027042655E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    112426.802667
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          1.1242680267E+05 8.4E-09      49
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:08.110
+--- Generating NLP model CO2
+--- new1_12.06.gms(2492) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 5.388E-08, 2.349E+04] - Zero values observed as well
+--- new1_12.06.gms(2492) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:08.126
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.6410605881E-09 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.6187479774E-09 (Full preprocessed model)
+                      2.8026067849E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    112426.802667
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          1.1242680267E+05 8.4E-09      49
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:08.236
+--- new1_12.06.gms(2714) 6 Mb
+--- Generating NLP model CO2
+--- new1_12.06.gms(2715) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 5.388E-08, 2.349E+04] - Zero values observed as well
+--- new1_12.06.gms(2715) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:08.247
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.3730330834E+07 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      2.6187479774E-09 (Full preprocessed model)
+                      2.8026067849E-11 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    322659.640286
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   3          3.2274309226E+05 3.9E+03      88 8.0E-01    25 F  T
+       2   4          3.2279652101E+05 4.0E+03      88 1.0E+00    25 T  T
+       3   4          3.2326819081E+05 2.2E+03      58 7.5E-01    54 T  T
+       4   4          3.2332738940E+05 7.5E+02      57 1.0E+00    24 T  T
+       5   4          3.2334444655E+05 1.6E+02      50 1.0E+00    18 T  T
+       6   4          3.2334457833E+05 7.4E+00      44 1.0E+00     8 T  T
+       7   4          3.2334458385E+05 3.8E+00      44 1.0E+00     7 F  T
+       8   4          3.2334458385E+05 4.7E-03      44 1.0E+00     3 F  T
+       9   4          3.2334458385E+05 2.1E-08      44
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:08.397
+--- Generating NLP model CO2
+--- new1_12.06.gms(2716) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 2.710E-08, 2.349E+04] - Zero values observed as well
+--- new1_12.06.gms(2716) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:08.397
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          5.3848150104E-08 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      6.0832011890E-08 (Full preprocessed model)
+                      6.1247743778E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    323344.583848
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          3.2334458385E+05 2.1E-08      38
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:08.515
+--- Generating NLP model CO2
+--- new1_12.06.gms(2717) 8 Mb
+---   2,122 rows  2,256 columns  6,237 non-zeroes
+---   17,384 nl-code  2,423 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.813E-03, 6.276E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-04, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 2.710E-08, 2.349E+04] - Zero values observed as well
+--- new1_12.06.gms(2717) 6 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:08.515
+
+CONOPT 4         49.4.0 6fb2fe8b Apr 6, 2025           WEI x86 64bit/MS Window
+
+--- *** This solver runs with a community license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.36
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 4 threads.
+ 
+ 
+    The user model has 2122 constraints and 2256 variables
+    with 6237 Jacobian elements, 2423 of which are nonlinear.
+    The Hessian of the Lagrangian has 549 elements on the diagonal,
+    664 elements below the diagonal, and 1093 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          6.0937755140E-08 (Input point)
+ 
+    The pre-triangular part of the model has 15 constraints and 54 variables.
+    The post-triangular part of the model has 722 constraints and variables.
+    There are 527 definitional constraints and defined variables.
+ 
+    Preprocessed model has 858 constraints and 953 variables
+    with 4286 Jacobian elements, 1976 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      6.0832012112E-08 (Full preprocessed model)
+                      6.1247777432E-10 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    323344.583848
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          3.2334458385E+05 2.1E-08      38
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model CO2
+--- Executing after solve: elapsed 0:00:08.629
+--- new1_12.06.gms(2930) 6 Mb
+--- Putfile resLARGE2023 C:\Users\Penguin\Desktop\DICE_12.06\DICE2023-b-4-3-10.csv
+*** Status: Normal completion
+--- Job new1_12.06.gms Stop 12/29/25 14:23:23 elapsed 0:00:08.629
